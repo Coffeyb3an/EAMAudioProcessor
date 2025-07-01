@@ -1,4 +1,4 @@
-# EAMAudioProcessor
+# EAMAudioProcessor // EffectsPlugin
 Effects and Manipulation Audio Processor - Effects Plugin for DAW
 
 
@@ -14,12 +14,12 @@ A custom audio plugin developed using JUCE for MSP. This plugin features a set o
 
 ## System Requirements
 
-* macOS (Intel or Apple Silicon)
-* [Minimum macOS version, e.g., macOS 10.13 High Sierra or later]
-* An Audio Unit (AU) compatible Digital Audio Workstation (DAW) such as Logic Pro, GarageBand, Ableton Live, Cubase, etc.
-* (Optional, for building from source): Xcode [Minimum Xcode version, e.g., Xcode 12 or later]
+* macOS 
+* Built for macOS 15.4, may not work with previous versions
+* An Audio Unit (AU) compatible (DAW) such as Logic Pro, GarageBand, Ableton Live
+* (Optional, for building from source): Xcode 12 or later
 
-## Building from Source (for Developers)
+## Building from Source 
 
 This project is built using the JUCE framework.
 
@@ -38,7 +38,7 @@ The compiled '.component' file will be located in 'YourProjectFolder/Builds/MacO
 
 ## Installation (for Users)
 
-1.  **Download the plugin:** [If you plan to provide a direct download link for the .zip, put it here, otherwise, instruct them to build from source or simply clarify that this is for the built .component file].
+1.  **Download the plugin:**  [ https://github.com/Coffeyb3an/EAMAudioProcessor/releases/tag/submission1 ]
 2.  **Unzip** the downloaded file.
 3.  **Copy** the 'EffectsPlugin,component` file.
 4.  **Navigate to the Audio Unit plugins folder:**

@@ -39,3 +39,80 @@
 
 # debug information files
 *.dwo
+
+# Projucer generated files
+*.jucer.user
+*.jucer.lock
+*.jucer.settings
+
+# IDE Specific Build folders and temporary files
+build/
+Builds/
+!Builds/*.xcodeproj/
+!Builds/*.sln
+!Builds/*.vcproj
+!Builds/*.vcxproj
+!Builds/*.mk
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.aps
+*.bsc
+*.ilk
+*.obj
+*.pdb
+*.res
+*.pch
+*.ipch
+*.log
+*.tlog
+*.lastbuildstate
+obj/
+tmp/
+Debug/
+Release/
+x64/
+Win32/
+
+# macOS / Xcode
+*.xcuserdatad/
+*.mode1v3
+*.pbxuser
+*.perspectivev3
+xcuserdata/
+DerivedData/
+.DS_Store
+
+# Plugin binaries 
+*.vst3
+*.component
+*.aaxplugin
+*.dll
+*.so
+*.app
+*.exe
+*.lib
+*.dylib
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Juce specific 
+JuceLibraryCode/JucePluginDefines.h
+
+Add comprehensive JUCE .gitignore

@@ -48,11 +48,11 @@
 # IDE Specific Build folders and temporary files
 build/
 Builds/
-!Builds/*.xcodeproj/
-!Builds/*.sln
-!Builds/*.vcproj
-!Builds/*.vcxproj
-!Builds/*.mk
+!Builds/**/*.xcodeproj/  # Allows .xcodeproj anywhere inside Builds/
+!Builds/**/*.sln         # Allows .sln anywhere inside Builds/
+!Builds/**/*.vcproj      # Allows .vcproj anywhere inside Builds/
+!Builds/**/*.vcxproj     # Allows .vcxproj anywhere inside Builds/
+!Builds/**/*.mk          # Allows .mk anywhere inside Builds/
 
 # Visual Studio
 .vs/
